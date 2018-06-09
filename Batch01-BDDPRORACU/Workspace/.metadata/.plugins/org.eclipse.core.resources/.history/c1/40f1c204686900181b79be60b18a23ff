@@ -1,0 +1,35 @@
+package com.ibm.discount.steps;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class PlatinumPlanTest {
+
+	@Given("the customer has service for 5 years")
+	public void the_customer_has_service_for_5_years(){
+		System.out.println("the customer has service for 5 years>>>>>>>>>");
+	}
+	
+	@When("has the plan (frequent) changed")
+	public void has_the_plan_never_changed(){
+		System.out.println("has the plan never changed>>>>>");
+	}
+	
+	@Then("give an additional discount of 10 percent")
+	public void give_an_additional_discount_of_10_percent(){
+		System.out.println("give an additional discount of 10 percent>>>>");
+	}
+
+	@And("promote for further offers")
+	public void promote_for_further_offers(){
+		System.out.println("promote for further offers>>>>>");
+	}
+	
+	
+	
+	
+}
+
+

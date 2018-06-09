@@ -1,0 +1,8 @@
+package com.ibm.discount.steps;
+
+public class PlatinumPlanTest {
+
+	public void the_customer_has_service_for_5_years(){
+		
+	}
+}

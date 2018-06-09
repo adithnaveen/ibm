@@ -1,0 +1,10 @@
+package com.ibm.discount.steps;
+
+// the methods written here will be executed 
+// for all features and scenarios 
+public class GenericHooks {
+
+	public void setUp(){
+		
+	}
+}

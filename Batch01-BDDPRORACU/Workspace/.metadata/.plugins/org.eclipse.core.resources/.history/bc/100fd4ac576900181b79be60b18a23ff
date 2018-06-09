@@ -1,0 +1,11 @@
+package com.ibm.discount.steps;
+
+import cucumber.api.java.en.Given;
+
+public class PlatinumPlanTest {
+
+	@Given("the customer has service for 5 years")
+	public void the_customer_has_service_for_5_years(){
+		System.out.println("the customer has service for 5 years>>>>>>>>>");
+	}
+}

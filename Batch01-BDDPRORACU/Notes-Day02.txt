@@ -1,0 +1,193 @@
+class Employee{
+	private int empId; 
+	private String empName; 
+	private double empSal; 
+
+// getters and setters 
+}
+
+
+<employee>
+	<empId>101</empId>
+	<empName>Kumar </empName>
+	<empSal>23233</empSal>
+</employee>
+
+
+{
+	empId:101, 
+	empName="Kumar", 
+	empSal=23233
+}
+https://github.com/adithnaveen
+
+
+
+// get 
+[
+{"messageId":101,"msg":"Hello There","author":"Naveen"},
+{"messageId":102,"msg":"Hello There....","author":"Kanchan"}
+]
+
+
+
+// test suit 
+describe("test", function(){
+	it("my first test case", function(){
+		// 
+	})
+	
+	it("my second test case", function(){
+		// 
+	})
+	
+	it("my thrird  test case", function(){
+		// 
+	})
+})
+
+describe("my test case suit", function(){
+	it("my given case goes here " , function(){})
+	describe("my nested test case " , function(){
+		it("my when case goes here " , function(){})
+
+		describe("my nested test case " , function(){
+			it("my then test case " , function(){
+				// then goes here 
+				element(by.id("empid"));
+			})
+		})
+	})
+})
+
+
+describe("my nested test case " , function(){
+			it("my then test case " , function(){
+				element(by.id("empid"));
+
+				browser.sleep(222); 
+				element(by.id("empname"));
+				
+				element(by.id("someid")).getText(function(text){
+					console.log(text);
+				})
+				
+				})
+		})
+
+
+
+
+
+
+
+
+<!doctype html>
+<html ng-app="todoApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <h2>Todo</h2>
+    <div ng-controller="TodoListController as todoList">
+      <span>{{todoList.remaining()}} of {{todoList.todos.length}} remaining</span>
+      [ <a href="" ng-click="todoList.archive()">archive</a> ]
+      <ul class="unstyled">
+        <li ng-repeat="todo in todoList.todos">
+          <label class="checkbox">
+            <input type="checkbox" ng-model="todo.done">
+            <span class="done-{{todo.done}}">{{todo.text}}</span>
+          </label>
+        </li>
+      </ul>
+      <form ng-submit="todoList.addTodo()">
+        <input type="text" ng-model="todoList.todoText"  size="30"
+               placeholder="add new todo here">
+        <input class="btn-primary" type="submit" value="add">
+      </form>
+    </div>
+  </body>
+</html>
+
+
+
+https://bit.ly/2J2iNGc
+
+
+
+
+
+describe('Name of the group', (name,age) => {
+    
+});
+
+
+describe('Name of the group', function(name, age) {
+    
+});
+
+
+<input type="text" ng-model="yourName" placeholder="Enter a name here" class="ng-valid ng-dirty ng-valid-parse ng-touched ng-empty">
+
+
+
+	void *ptr; 
+
+  var retValue = element(by.binding('yourName')).getText().then(ptr );
+  
+  
+  
+
+  ptr = function(retText){
+  // can i do some thing 
+            return retText; 
+       }
+
+
+
+   var retValue = element(by.binding('yourName')).getText().then(function(retText){
+           
+            return retText; 
+        });
+
+		
+class MyClass {
+
+	public int add(int num1, int num2){
+		return num1 + num2; 
+	}
+	public static void main(String args[]){
+		new MyClass().add(334, 33)l 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

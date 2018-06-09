@@ -1,0 +1,10 @@
+# This is my Comment 
+@Sanity 
+Feature: To give discount for privilleged customers 
+
+Scenario: To give discount for platinum customers 
+	Given the customer has service for 5 years 
+	When has the plan "never" changed 
+	Then give an additional discount of 10 percent 
+	And promote for further offers 
+	

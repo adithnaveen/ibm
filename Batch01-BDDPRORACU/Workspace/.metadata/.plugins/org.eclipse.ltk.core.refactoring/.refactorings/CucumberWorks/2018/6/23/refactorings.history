@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;discountrule.feature&apos; to &apos;discountrule.feature&apos;&#x0D;&#x0A;- Original project: &apos;CucumberWorks&apos;&#x0D;&#x0A;- Destination element: &apos;discountrule.feature&apos;&#x0D;&#x0A;- Original element: &apos;discountrule.feature&apos;" description="Copy file" element1="resources/com/ibm/features/discountrule.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1528282386711" target="/CucumberWorks/resources/com/ibm/features/discountrule.feature" units="0" version="1.0"/>
+</session>

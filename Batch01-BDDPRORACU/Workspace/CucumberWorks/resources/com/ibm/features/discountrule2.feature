@@ -1,0 +1,22 @@
+# This is my Comment 
+@AdvCucumber 
+Feature: To give discount for privilleged customers 
+
+Scenario Outline: To give discount for platinum customers 
+	Given the customer has service for "<years>" years 
+	When has the plan "<frequently>" changed 
+	Then give an additional discount of "<percentage>" percent 
+	And promote for further offers 
+	
+	
+# value substitution shall happen with examples 
+Examples: 
+# each example row is one scenario 
+
+|		years		|		frequently		|		percentage		|
+|		  5 		|     never 			|     25					| 
+| 		10		|     never				|			32					| 
+| 		5			|			twice 			| 		16					|
+|			5			| 		frequent   	|			12					|
+|     2     |    never        |     18          |  
+

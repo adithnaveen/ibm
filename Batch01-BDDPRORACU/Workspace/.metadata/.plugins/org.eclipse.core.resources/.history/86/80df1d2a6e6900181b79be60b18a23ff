@@ -1,0 +1,29 @@
+package com.ibm.discount.steps;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginStep {
+
+	@Given("^the browser is open$")
+	public void the_browser_is_open() throws Throwable {
+		System.out.println("the browser is open ...");
+	}
+
+	@When("^username and password is entered$")
+	public void username_and_password_is_entered() throws Throwable {
+		System.out.println("User name and password is entered ....");
+	}
+
+	@When("^click on submit button$")
+	public void click_on_submit_button() throws Throwable {
+		System.out.println("Click on submit button ...");
+	}
+
+	@Then("^validate user credentials$")
+	public void validate_user_credentials() throws Throwable {
+		System.out.println("Validate user credentials... ");
+	}
+}

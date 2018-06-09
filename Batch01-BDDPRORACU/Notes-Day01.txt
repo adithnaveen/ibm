@@ -1,0 +1,88 @@
+pom file link 
+
+https://bit.ly/2szblMK
+
+eclipse cucumber plugin 
+https://bit.ly/2xOGAs8
+
+
+apache tomcat 7.0 
+https://bit.ly/1IRg8eY
+download the zip file 
+
+
+https://code.visualstudio.com/download
+https://nodejs.org/en/download/
+
+
+Telecom 
+
+Feature - Discount 
+
+	Scenario 1 - for calling plan platinum 
+		Given 
+		When 
+		Then 
+		And 
+		But 
+
+
+	Scenario 2
+
+	Scenario 3
+
+
+
+
+Scenario: To give discount for platinum customers 
+	Given the customer has service for 5 years 
+	When has the plan occationally changed 
+	Then give an additional discount of 10 percent 
+	And promote for further offers 
+	
+
+
+Scenario: To give discount for platinum customers 
+	Given the customer has service for 5 years 
+	When has the plan "*****" changed 
+	Then give an additional discount of ** percent 
+	And promote for further offers 
+
+	
+
+@Before 
+public void setUp(){
+
+	driver.get("someurl"); 
+
+}
+
+@Test 
+public void myTest(){
+
+	driver.findElement(By.id("somelocator");
+	driver.findElement(By.id("somelocator");
+	driver.findElement(By.id("somelocator");
+	driver.findElement(By.id("somelocator");
+	driver.findElement(By.id("somelocator");
+
+	driver.quit(); 
+}
+
+pkjtiwari@gmail.com
+narasimhamurthy.puranik@in.ibm.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+package com.ibm.discount.steps;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
+// the methods written here will be executed 
+// for all features and scenarios
+
+// this is hooks class 
+public class GenericHooks {
+
+	@Before
+	public void setUp(){
+		System.out.println("$$$$$$$Hey i'm always there before start $$$$$$$$$$");
+	}
+	
+	@After
+	public void tearDown(){
+		System.out.println("###### I'm always there after test case ######");
+	}
+}

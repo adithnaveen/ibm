@@ -1,0 +1,25 @@
+@Smoke 
+Feature: to validate login credentials 
+
+Background: 
+	Given the browser is open  
+
+Scenario: to validate on desktop 
+	When username and password is entered
+	| username  	| password 		|
+	| narashimha  | secret\@123 |
+	| anuj			  | anuj123     |
+	| chandini    | testing222  | 
+	| sowbhagya   | s1234       | 
+	 
+	And click on submit button  
+	Then validate user credentials 
+	
+	
+Scenario: to validate on tablet  
+	When username and password is entered
+	| username  	| password 		|
+	| narashimha  | secret\@123 |
+	And click on submit button  
+	Then validate user credentials 
+	

@@ -1,0 +1,9 @@
+Feature: to validate login credentials 
+
+Scenario: to validate on desktop 
+	Given the browser is open  
+	When username and password is entered
+	And click on submit button  
+	Then validate user credentials 
+	
+	
