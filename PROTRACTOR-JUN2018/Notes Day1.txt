@@ -1,0 +1,271 @@
+end to end 
+
+Introduction 
+
+Akila -> MF Dev, new to Automation testing 
+Asha -> 14 yers exp, IBM 10+, microservices, new to automation Testing 
+Ganesh -> 10 exp, IBM 8 yrs, Testing team, microservices, cucumber 
+Gokul -> 14 yrs, 8yrs IBM, analytics, cucumber and protractor how 
+	it works and configuration 
+Karthik -> IBM 8 yrs, Testing background, working on microserivce 
+		SOAPUI, cucumber and protractor, known basics 
+Priyanka -> 
+Srikanth -> 12 yrs IBM, working on microservice, working on 
+		SOAPUI, cucumber basics, understaning application testing
+		on angular 
+Supragyan -> 
+Suresh -> 7 yrs in IBM, java developer for AT&T, explore on microservices 
+		+ e2e 
+
+
+<html>
+	
+	<body>
+	
+		<form action="somepage">
+			Enter user name <input type="text" id="username" />
+			Enter pass  <input type="password" id="pass" />
+		
+			<input type="submit" />
+
+		</form>
+	</body>
+</html>
+
+
+
+
+AngularJS 1.x  
+Angular - 2, 4, 5 
+
+
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div>
+  </body>
+</html>
+
+
+--------------------------------------------------------------- 
+jasmine or mocha 
+--------------------------------------------------------------- 
+
+BDD 
+
+Given
+	the username and password  
+When 
+	credentials are valid 
+Then 
+	take user to home page 
+
+
+
+https://nodejs.org/en/download/ -> install 
+https://code.visualstudio.com/ -> install
+
+
+NodeJS is a webserver, when downloaded it comes with NPM which can help us to get all the dependencies 
+
+
+// BDD 
+describe("to test the application for banking", function(){
+	
+	beforeAll(function(){
+		/// any job to do before any test case to be executed 
+	})
+
+
+	afterAll(function(){
+		// any job to be execute after all the test case is done 
+	})
+
+
+	beforeEach(function(){
+		// call before each test case 
+	})
+
+	afterEach(function(){
+		// call after each test case 
+	})
+
+	it("testing for successful login credentials", function(){
+		// TODO 
+	})
+	
+	xit("testing for failure login credentials", function(){
+		// TODO 
+	})
+	
+	xdescribe("to test a customer login module", function(){
+		it("test userser from USA for login", function(){
+			// TODO 
+		})
+	})
+}) 
+
+
+
+Visual Code 
+sublime -> paid 
+atom 
+webstrom 
+notepad ++ 
+eclipse 
+brackets from adobe 
+
+
+
+C:\Users\Naveen\Desktop\IBM\Workspace\jasmineworks
+this will our workspace for jasmine 
+
+
+we need a npm project 
+
+> npm init 
+> npm init -y 
+
+ctrl + ` -> open or close command prompt 
+
+
+to install jasmine (i or install) 
+npm i jasmine -> is for local install (only for the folder which you are working) 
+npm i -g jasmine -> this is global install in any folder and can be accessed in any folder 
+
+npm i jasmine --save-dev  (-- to save only for developers)
+npm install jasmine --save-dev 
+
+npm i --help ( to get more information) 
+
+
+if you get the project (npm) then node_modules folder is missed, so do 
+> npm install 
+
+> npm install jasmine -g (so that on cmd prompt you can use jasmine) 
+
+> jasmine init 
+
+
+
+
+
+
+
+
+java script 
+
+BL 
+
+var bankingApplication = function(){}
+
+
+bankingApplication.prototyp.credit = function(accNo, amount){
+	// will invoke some rest services 
+	// some todo 
+
+	return true; 
+}
+
+
+bankingApplication.prototyp.debit = function(accNo, amount){
+	// will invoke some rest services 
+	// some todo 
+}
+
+
+bankingApplication.prototyp.viewbalance = function(accNo){
+	// will invoke some rest services 
+	// some todo 
+}
+
+
+module.exports = bankingApplication ; 
+--------------------------------------------------------------
+specs 
+jasmine 
+can give nice html report, can pull the data from excel so that we can run test cases multiple times, test with json / xml, logging 
+
+
+BDD 
+
+var mybank = require("bankingApplication.js");
+
+
+describe("any story", function(){
+	// any test cases 
+
+	it("", function(){
+		expect(mybank.credit(101, 3000)).truthy();
+	})
+})
+
+
+when you install protractor internally jasmine is installed. 
+
+
+this path is when you want to install globally 
+
+
+C:\Users\Naveen\AppData\Roaming\npm\webdriver-manager -> C:\Users\Naveen\AppData\Roaming\npm\node_modules\protractor\bin\webdriver-manager
+C:\Users\Naveen\AppData\Roaming\npm\protractor -> C:\Users\Naveen\AppData\Roaming\npm\node_modules\protractor\bin\protractor
+
+
+to have protractor 
+You should have java because protractor interally uses selenium(written using java), selenium needs java 
+
+
+java 1.7 or java 1.8 
+
+1. to invoke protractor on command line 
+	npm install -g protractor 
+
+2. to get the node_modules folder for development env 
+	npm install protractor --save-dev 
+
+
+
+if you want to update the packages from protractor -> webdriver-manager update
+we need a server-> webdriver-manager start 
+to clear all the dependencies and get fresh -> webdriver-manger clean 
+to know what packages are instaled -> webdriver-manager status 
+
+
+
+when we do 
+werdriver-manager update -> this will update the existing libratries and download chrome and firefox browser information. 
+
+
+
+
+
+<input name="firstname" type="text" ng-model="firstName" required="" class="ng-pristine ng-valid ng-valid-required">
+
+
+
+<button id="submitBtn" ng-disabled="studentForm.firstname.$dirty &amp;&amp; studentForm.firstname.$invalid ||
+			  studentForm.lastname.$dirty &amp;&amp; studentForm.lastname.$invalid ||
+			  studentForm.email.$dirty &amp;&amp; studentForm.email.$invalid" ng-click="submit()">Submit</button>
+
+
+
+
+jasmine tutorials 
+https://jasmine.github.io/api/2.7/global.html#afterAll
+
+
+
+https://www.protractortest.org/#/toc
+https://www.protractortest.org/#/api
+
+
+
+
