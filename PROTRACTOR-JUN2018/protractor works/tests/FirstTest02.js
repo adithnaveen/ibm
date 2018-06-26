@@ -25,6 +25,8 @@ describe("Testing entering into an input box ", function(){
     })
 
     it('Enter details of the Employee for login and validate', () => {
+
+        var expectedMessage ="Form Submitted";
         browser.get("http://naveenks.com/angularjs/FormValidate.html"); 
 
         element(by.model('firstName')).clear(); 
@@ -40,8 +42,18 @@ describe("Testing entering into an input box ", function(){
         browser.driver.sleep(2000); 
 
         // i leave with some todo's 
+
         // to click on alert and check the word called form submitted on the page 
         
+        // handle alert 
+        browser.switchTo().alert().accept();
+
+        var retTxt = element(by.xpath('/html/body/div/form/div/div[2]'))
+                .getText().then(function(txt){
+            console.log("Message got is " + txt);
+            return txt; 
+        })
+        expect(expectedMessage).toEqual(retTxt);
     });
 
 
