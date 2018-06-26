@@ -1,0 +1,11 @@
+{
+	"test":{
+			"appUrl": "https://wego.here.com"
+		},
+	"dev":{
+			"appUrl": "https://wego.here.com"
+		}, 
+	"login":{
+		"appUrl":"http://probits.in/loginapp/login.php"
+	}
+}
