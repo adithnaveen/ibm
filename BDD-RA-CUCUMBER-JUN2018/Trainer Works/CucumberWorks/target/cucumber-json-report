@@ -1,0 +1,88 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# this is my comment"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user tries to call but fails for individual",
+        "description": "",
+        "id": "for-testing-the-dialing-of-a-national-number-for-group-and-individuals;user-tries-to-call-but-fails-for-individual",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 351884452,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user has the dialing phone number",
+            "match": {
+              "location": "DialingSteps.the_user_has_the_dialing_phone_number()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212512,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user resides in india",
+            "match": {
+              "location": "DialingSteps.user_resides_in_india()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 247385,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "dials the number",
+            "match": {
+              "location": "DialingSteps.dials_the_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260103,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "gets a busy tone",
+            "match": {
+              "location": "DialingSteps.gets_a_busy_tone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137847,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "does not connect for individual",
+            "match": {
+              "location": "DialingSteps.does_not_connect_for_individual()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "for testing the dialing of a national number for group and individuals",
+    "description": "",
+    "id": "for-testing-the-dialing-of-a-national-number-for-group-and-individuals",
+    "keyword": "Feature",
+    "uri": "dialing.feature"
+  }
+]

@@ -1,0 +1,110 @@
+Day2 Notes 
+
+
+Scenario Outline: 
+	Given this is desktop login to "<favoritebrowser>" browser 
+	When user name is valid 
+	Then take to "<somepage>" page 
+
+
+Scenario Outline: 
+	Given this is mobile login to "<favoritebrowser>" browser 
+	When user name is valid 
+	Then take to "<somepage>" page 
+
+Examples: 
+	| 	favoritebrowser | 	somepage	|
+	|	chrome		| 	homepage	|
+	|	firefox 	|	index 		|
+	|	ie		|	homepage	|
+
+
+class MyTest{
+	
+	@Before -> background (has to be only in feature file, and local to feature file) 
+	public void setup(){}
+	
+	@Test
+	public void helloTest(){}
+}
+
+
+Cucumber outlined 
+
+started uderstanding BDD 
+wrote Scenario 
+Features and glue in test runner with some pluging /reports 
+wrote Datatable for each step 
+Scenario outline + Example 
+Tags 
+Background
+Hooks 
+
+we can start extent report 
+
+https://chromedriver.storage.googleapis.com/index.html?path=2.40/
+
+
+
+http://probits.in/loginapp/
+Click on login link 
+//*[@id="bs-example-navbar-collapse-1"]/ul/li[2]/a
+
+enter email 
+name=email
+
+enter password 
+name=pass 
+
+click loginbutton
+name=login 
+
+
+after login 
+name = name 
+
+
+
+integrating with report -> extent 
+we want to have the values stored in .xlsx sheet and iterate 
+JDBC 
+
+
+
+The Apache POI Project's mission is to create and maintain Java APIs for manipulating various file formats based upon the Office Open XML standards (OOXML) and Microsoft's OLE 2 Compound Document format (OLE2). In short, you can read and write MS Excel files using Java. In addition, you can read and write MS Word and MS PowerPoint files using Java. Apache POI is your Java Excel solution (for Excel 97-2008). We have a complete API for porting other OOXML and OLE2 formats and welcome others to participate.
+
+
+
+
+
+GET
+	http://localhost:8080/resources  -> all messages 
+	http://localhost:8080/resources/101 -> to give 101 message 
+	http://localhost:8080/resources/101/4
+POST
+	http://localhost:8080/resources 
+	
+PUT
+	http://localhost:8080/resources  
+
+DELETE
+	http://localhost:8080/resources -> will delete all the message 
+	http://localhost:8080/resources/101 -> delete only 101 
+
+
+
+1xx - request sent 
+2xx - job done (OK) 
+3xx - redirection 
+4xx - client err 
+5xx - server err 
+
+
+
+adith.naveen@gmail.com
+naveenks.com
+https://www.linkedin.com/in/naveenkumarks/
+
+
+
+

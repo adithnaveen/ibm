@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/groovy-2.3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/groovy-json-2.3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/groovy-xml-2.3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/httpclient-4.3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/httpcore-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/httpmime-4.3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/jackson-core-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/jackson-databind-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/jetty-http-9.4.6.v20170531.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/jetty-io-9.4.6.v20170531.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/jetty-server-9.4.6.v20170531.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/jetty-util-9.4.6.v20170531.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/json-path-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/rest-assured-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/rest-assured-common-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen/Desktop/restassuredjars/xml-path-2.4.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

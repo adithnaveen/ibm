@@ -1,0 +1,185 @@
+supragan -> in testing but needs to understand BDD and approch 
+Srikanth -> TOC for test API, + a video share on swagger + 
+		selenium + cucumber + reporting + extent + POM 
+Asha -> start from basics, intro to cucumber 
+Srinivas -> understaning cucumber, getting starting 
+
+
+
+
+
+
+.feature 
+	Scenario: blah blah 
+	
+	Given 
+	When 
+	Then 
+
+And 
+But 
+
+
+
+class TestCase1 {
+}
+
+class TestCase2 {
+	
+}
+
+
+@RunWith(TestCase1.class, TestCase2.class) 
+class MyTestSuite{
+
+}
+
+
+@RunWith(Cucumber.class)
+class TestRuner{
+
+}
+
+Telecom 
+
+
+user is dial phone number 
+and has dialed multiple and has failed to talk the group 
+
+
+
+
+
+
+dialing.feature
+
+Scenario: user tries to call but fails 
+	Given the user has the dialing phone number 
+	When dials the number 
+	Then get a busy tone 
+	And the does not connect for individual 
+
+Scenario: user tries to call but fails 
+	Given the user has the dialing phone number 
+	When dials the number 
+	Then get a broken tone 
+	And the does not connect for individual 
+
+Scenario: user tries to call but fails 
+	Given the user has the dialing phone number 
+	When dials the number 
+	Then get a broken tone 
+	And the does not connect for group
+
+Scenario: user tries to call but fails 
+	Given the user has the dialing phone number 
+	When dials the number 
+	Then get a busy tone 
+	And the does not connect for group
+
+
+
+
+
+login.feature 
+
+	Scenario: validate the user credentials 
+
+	Given the browser is open 
+	And the username and password is entered
+	| username | password| roles | 
+	| srikanth |  testing | developer | 
+	| simi 	   |   hello | tester | 
+	| karthik  | secrettesting |  qa |
+	| srinivas |   bengaluru111 | finance| 
+
+	When credentials are validated 
+	Then take user to home page 
+
+
+class LoginBean{
+	private String username; 
+	private String password; 
+	private String roles; 
+}
+
+
+
+
+
+Asha -> Domain Expert 
+	
+Feature: 
+	login for desktop systems 
+
+Scenario: 
+	checking for valid credentials 
+	
+	Given open the browser 
+	When want to test with few username and passwords
+	| username | password | country | 
+	| asha |   asha@123 |  india | 
+	| karthik | karthik@123|  usa | 
+	| naveen | naveen @123| scotland | 
+	|simi | simi@123 | finaland| 
+	Then take user to home page 
+
+And But 
+
+
+Karthik -> number field in the datatable may change or not 
+	1. will never change 
+	2. may change 
+
+Srikanth -> Java Expert 
+
+class LoginBean {
+	private Stirng username; 
+	private String password; 
+
+	// getters and setters 
+}
+
+
+class LoginStep{
+	@When("^want to test with few username and passwords$")
+	public void want_to_test_with_few_username_and_passwords(List<LoginBean> list){
+		// iterate 
+	}
+}
+
+
+
+-- when you have multiple scenarios 
+
+
+
+Scenario Outline: user tries to call but fails 
+	Given the user has the dialing "<type>" number 
+	When dials the number 
+	# busy, broken, ring, no 
+	Then get a "<tonetype>" tone 
+	And the does not connect for "<typeofuser>" 
+
+Examples: 
+	
+	| type		|	tonetype	|	typeofuser	|
+	| mobile	|	busy		|	individual	|
+	| mobile	|	broken		|	individual	|
+	| mobile	|	ring		|	individual	|
+	| phone		|	busy		|	individual	|
+	| phone		|	broken		|	individual	|
+	| phone		|	ring		|	individual	|
+
+
+cucumber PDF 
+
+
+adith.naveen@gmail.com
+
+
+
+
+
+
+
