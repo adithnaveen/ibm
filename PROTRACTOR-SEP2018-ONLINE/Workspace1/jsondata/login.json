@@ -1,0 +1,16 @@
+{
+    "loginurl":"http://probits.in/loginapp/login.php", 
+    "locators":{
+        "loginpage":{
+            "username":"email", 
+            "password":"pass", 
+            "loginbtn":"login"
+        }, 
+        "regpage":{}, 
+        "homepage":{}
+    }, 
+    "userdetails":{
+        "username":"adith.naveen@gmail.com", 
+        "password":"1234"
+    }
+}

@@ -1,0 +1,329 @@
+Hi, 
+		   GOOD MORNING!!! 
+
+		   Welcome to Protractor training 
+
+
+
+Piyush Singh -> 1.5 years, (total 4.5) + involved in setting up in selenium + python 
+how to setup an environment 
+
+Naga -> 7 Yrs exp, IBM, already a automation engineering, knows selenium 
+start from scratch 
+
+Nina -> 5 yrs exp, automation engineering, new to protractor 
+how to work with the project 
+
+Shashwata Ray -> 
+
+
+Sanjeet Kumar Das -> 9 Yrs in IBM, UFT, from begining, to learn 
+new technology. to implement in project
+
+
+
+
+
+
+<html>
+	<body>
+		Enter your name <input type="text" id="uname" name='uname' 
+			ng-model="uname" />
+	</body>
+</html>
+
+
+
+
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <input type="text" ng-model="yourName1" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div>
+  </body>
+</html>
+
+
+
+
+Java -> internally protractor uses selenium, selenium 
+	is dependent on java + put in env variable
+Web Server -> NodeJS, NPM (Node Package Manager) 
+https://nodejs.org/en/download/
+Visual Code Studio -> Microsoft + CLI 
+https://code.visualstudio.com/
+various editors (sublime, amom, webstrom, nodepad++) 
+
+
+
+GIVEN -> pre condition 
+WHEN -> job is done in server 
+THEN -> post condition 
+AND -> multiple condition 
+BUT -> exception 
+
+
+https://jasmine.github.io/api/3.2/global
+
+
+describe("your suit", function(){
+	xdescribe("your suit", function(){
+		it("my first test case", function(){
+	
+			describe("your suit", function(){}) - wrong 
+		})
+		
+		it("my first test case", function(){
+			 expectAsync(<protractor>).toBeResolved();
+		})
+
+		xit("my first test case", function(){
+	
+		})		
+	})	
+})
+
+
+
+
+
+
+
+
+
+Lets start by 11:35 
+
+
+
+
+to show CLI -> ctrl + ` (show / hide ) 
+
+
+
+
+
+
+
+
+
+npm install -g protractor 
+
+C:\Users\Naveen\AppData\Roaming\npm\node_modules\protractor\bin\protractor
+
+
+WORKSPACE 
+	conf.js 
+	tests 
+		sample1.js (spec) 
+		sample2.js (spec) 
+	
+
+
+protractor .\conf.js <- all the spec files which are needed for execution 
++ how many brosers we need + how many instance of brosers we need + etc 
+(to generate the report, where to keep ) 
+
+
+
+npm install -g protractor 
+
+webdriver-manager update -> this will download all 
+protractor --version 
+
+
+webdriver-manager status 
+
+
+webdriver-manager clean -> this will clean the drivers which are downloaded 
+
+
+
+<input type="text" ng-model="todoList.todoText" size="30" placeholder="add new todo here" class="ng-valid ng-dirty ng-touched ng-empty">
+
+SPA -> Single Page Application 
+<input class="btn-primary" type="submit" value="add">
+
+/html/body/div[2]/div[3]/div[2]/div[2]/div/form/input[1]
+
+
+webdriver-manager start 
+
+protractor .\conf.js 
+
+
+
+
+<span class="done-false">Testing in IBM</span>
+<span class="done-true">Testing in IBM</span>
+
+
+
+<li ng-repeat="todo in todoList.todos" class="ng-scope">
+      <label class="checkbox">
+        <input type="checkbox" ng-model="todo.done" 
+		class="ng-pristine ng-untouched ng-valid ng-not-empty">
+        <span class="done-true">learn AngularJS</span>
+      </label>
+    </li>
+
+
+<input name="firstname" type="text" ng-model="firstName" required="" class="ng-pristine ng-valid ng-valid-required">
+
+
+
+
+<button id="submitBtn" ng-disabled="studentForm.firstname.$dirty &amp;&amp; studentForm.firstname.$invalid ||
+			  studentForm.lastname.$dirty &amp;&amp; studentForm.lastname.$invalid ||
+			  studentForm.email.$dirty &amp;&amp; studentForm.email.$invalid" ng-click="submit()">Submit</button>
+
+
+
+
+describe("Test suit1", function(){
+
+	it("test1", function(){
+		browser.get("somesite.com");
+	})	
+
+	it("test2", function(){
+		browser.get("somesite.com");
+	})	
+
+	it("test3", function(){
+		browser.get("somesite.com");
+	})	
+})
+
+
+
+<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+
+
+
+
+
+
+<select class="form-control" id="monthOfBirth">
+<option value="-------">Month</option>
+<option value="jan">January</option>
+<option value="feb">February</option>
+<option value="mar">March</option>
+<option value="apr">April</option>
+<option value="may">May</option>
+<option value="jun">June</option>
+<option value="jul">July</option>
+<option value="aug">August</option>
+<option value="sep">September</option>
+<option value="oct">October</option>
+<option value="nov">November</option>
+<option value="dec">December</option>
+</select>
+
+
+Recap of Day 1
+ 
+we installed nodejs, java, visual code, npm 
+
+npm i -g protractor (protractor, webdriver-manager, jasmine) 
+
+protractor 
+webdriver-manager 
+
+webdriver-manager update 
+webdriver-manager start 
+webdriver-manager status 
+webdriver-manager clean 
+
+protractor .\conf.js 
+
+
+
+
+
+day 2 
+
+full application testing 
+pull the data with .xlsx 
+pull the data with json 
+do loggers 
+html report + screen shot (either passed or failed or both) 
+POM (Page Object Model) 
+
+
+Protractor can test directly against Chrome and Firefox without using a Selenium Server. To use this, in your config file set directConnect: true.
+
+shashray@in.ibm.com
+sanjeet.das@in.ibm.com
+ninsamue@in.ibm.com
+
+
+
+
+exports.config = {
+  framework: 'jasmine',
+  seleniumAddress: 'http://localhost:4444/wd/hub',
+  specs: ['spec.js'],
+  multiCapabilities: [{
+    browserName: 'firefox'
+  }, {
+    browserName: 'chrome'
+  }]
+}
+
+
+
+
+<a href="login.php">Login</a>
+
+<input class="form-control" placeholder="E-mail" name="email" type="email" autofocus="">
+
+
+
+
+<input class="btn btn-lg btn-success btn-block" type="submit" value="login" name="login">
+
+
+<input class="form-control" placeholder="Username" name="name" type="text" value="Naveen KS" autofocus="">
+
+<input class="btn btn-lg btn-success btn-block" type="submit" value="Update" name="update">
+
+
+function sample(id, name){
+	
+	display = function(){
+		console.log("id"+id). 
+		console.log("name : "+ name);
+	}	
+
+	update = function(id, name){
+		this.id  = id; 
+		this.name = name; 
+	}
+
+}
+
+
+s1 = new sample(101, "nina"); 
+s1.display(); 
+
+
+
+npm install winston@2.4.0 
+
+npm view winston versions
+
+npm uninstall winston
+
+
+
+
+
+
